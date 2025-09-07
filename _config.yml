@@ -27,7 +27,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Wellcome ECA Fellow, MRC Cognition & Brain Sciences Unit, School of Clinical Medicine, University of Cambridge"
   location         : "UK"
-  employer         : "Red Brick University"
+  employer         : # "Red Brick University"
   uri              : # URL
   email            : "none@example.org" 
 
