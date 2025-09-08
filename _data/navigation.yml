@@ -24,12 +24,17 @@ main:
 
   - title: "Bio"
     url: /bio/
+
+  - title: "Research"
+    url: /publications/
     
   - title: "CV"
     url: /cv/
 
-  - title: "Publications"
-    url: /publications/
+  - title: "Life Photos"
+    url: /lifephotos/
+
+
     
   # - title: "CV"
   #   url: /cv-json/
