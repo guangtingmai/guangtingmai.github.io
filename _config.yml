@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "GuangTing Mai"
   pronouns         : # example: "she/her"  
-  bio              : 'Wellcome ECA Fellow<br> <a href="https://www.mrc-cbu.cam.ac.uk/">MRC Cognition and Brain Sciences Unit</a>, <a href="https://www.cam.ac.uk">University of Cambridge</a><br><br>Cognitive Neuroscience of Speech and Language'
+  bio              : '<strong>Wellcome ECA Fellow<br> <a href="https://www.mrc-cbu.cam.ac.uk/">MRC Cognition and Brain Sciences Unit</a>, <a href="https://www.cam.ac.uk">University of Cambridge</a></strong><br><br>Cognitive Neuroscience of Speech and Language'
   location         : "UK"
   employer         : # "Red Brick University"
   uri              : # URL
