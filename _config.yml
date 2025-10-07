@@ -22,7 +22,7 @@ repository               : "guangtingmai/guangtingmai.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "GuangTing Mai"
   pronouns         : # example: "she/her"  
   bio              : 'Wellcome Trust ECA Fellow,<br>MRC Cognition and Brain Sciences Unit, University of Cambridge'
