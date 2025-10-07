@@ -7,7 +7,6 @@
 # server process.
 
 # Basic Site Settings
-home_layout              : home
 locale                   : "en-UK"
 site_theme               : ""
 title                    : "GuangTing Mai"
@@ -30,7 +29,7 @@ author:
   location         : "UK"
   employer         : # "Red Brick University"
   uri              : # URL
-  email            : "guangting.mai@mrc-cbu.cam.ac.uk.org" 
+  email            : "guangting.mai@mrc-cbu.cam.ac.uk" 
 
   # Academic websites
   academia         : # URL
