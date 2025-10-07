@@ -8,9 +8,9 @@ redirect_from:
 
 <br>
 <br>
-<span style="font-size: 12pt;line-height: 0.8em;">I am a Wellcome Research Fellow at the <a href="https://www.mrc-cbu.cam.ac.uk/">MRC Cognition and Brain Sciences Unit</a> (CBU) at Cambridge.
+<span style="font-size: 12pt;line-height: 0.4em;">I am a Wellcome Research Fellow at the <a href="https://www.mrc-cbu.cam.ac.uk/">MRC Cognition and Brain Sciences Unit</a> (CBU) at Cambridge.
   
-<span style="font-size: 12pt;line-height: 0.8em;">I train as a cognitive neuroscientist studying brain processing of speech and language. I study neural processes that underlie how the brain integrates audio (sounds we hear) and visual (lip movements we see) information during speech comprehension by adult cochlear implant users. I am also involved in projects studying neural speech processing in people with post-stroke aphasia and neural processes during social interactions in typical listening and cochlear implanted children.
+<span style="font-size: 12pt;line-height: 0.4em;">I train as a cognitive neuroscientist studying brain processing of speech and language. I study neural processes that underlie how the brain integrates audio (sounds we hear) and visual (lip movements we see) information during speech comprehension by adult cochlear implant users. I am also involved in projects studying neural speech processing in people with post-stroke aphasia and neural processes during social interactions in typical listening and cochlear implanted children.
 
 <span style="font-size: 12pt;line-height: 1;"><a href="https://guangtingmai.github.io/bio/">Bio >></a>
 
