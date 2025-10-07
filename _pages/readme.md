@@ -6,7 +6,7 @@ redirect_from:
   - /readme.html
 ---
 
-I am a Wellcome Trust ECA Research Fellow at the MRC Cognition and Brain Sciences Unit (CBU) at Cambridge.
+I am a Wellcome Research Fellow at the <strong>MRC Cognition and Brain Sciences Unit</strong> (CBU) at Cambridge.
 
 I train as a cognitive neuroscientist studying brain processing of speech and language. I study the neural processes that underlie how the brain integrates audio (sounds we hear) and visual (lip movements we see) information during speech comprehension by adult cochlear implant users. I work with Dr Matt Davis at CBU, co-advised by Dr Bob Carlyon (CBU) and Prof Douglas Hartley (University of Nottingham). 
 
