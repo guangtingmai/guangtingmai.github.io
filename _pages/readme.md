@@ -6,13 +6,12 @@ redirect_from:
   - /readme.html
 ---
 
-<span style="font-size: 11pt;">I am a Wellcome Research Fellow at the <a href="https://www.mrc-cbu.cam.ac.uk/">MRC Cognition and Brain Sciences Unit</a> (CBU) at Cambridge.
+<span style="font-size: 12pt;">I am a Wellcome Research Fellow at the <a href="https://www.mrc-cbu.cam.ac.uk/">MRC Cognition and Brain Sciences Unit</a> (CBU) at Cambridge.
 
-I train as a cognitive neuroscientist studying brain processing of speech and language. I study the neural processes that underlie how the brain integrates audio (sounds we hear) and visual (lip movements we see) information during speech comprehension by adult cochlear implant users. I work with Dr Matt Davis at CBU, co-advised by Dr Bob Carlyon (CBU) and Prof Douglas Hartley (University of Nottingham). 
+<span style="font-size: 12pt;">I train as a cognitive neuroscientist studying brain processing of speech and language. I study the neural processes that underlie how the brain integrates audio (sounds we hear) and visual (lip movements we see) information during speech comprehension by adult cochlear implant users. I have also been working on projects studying neural speech processing in people with post-stroke aphasia and in typical listening and cochlear implanted children.
 
-I have also been working at UCL with Dr Holly Robson on neural speech processing in people with aphasia after stroke and at Nottingham with Prof Hartley on typical listening and cochlear implanted children.
+<span style="font-size: 12pt;">Bio >>
 
-Bio >>
+<span style="font-size: 12pt;">CrossModal-CI >>
 
-CrossModal-CI >></span>
 
