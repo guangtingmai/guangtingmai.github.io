@@ -9,7 +9,7 @@ author_profile: true
 
 {% include base_path %}
 
-<p><span style="font-size: 14pt;">Education
+Education
 ======
 * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 * M.S. in Jekyll, GitHub University, 2014
