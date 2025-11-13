@@ -22,20 +22,20 @@ main:
  # - title: "Blog Posts"
  #   url: /year-archive/
 
-  - title: "Bio"
-    url: /bio/
+  - title: "About"
+    url: /about/
 
   - title: "Research"
     url: /research/
-    
-  - title: "CV"
-    url: /cv/
 
   - title: "CrossModal-CI"
     url: /crossmodal-ci/
 
   - title: "Photos"
     url: /lifephotos/
+
+  - title: "Contact"
+    url: /contact/
 
 
     
