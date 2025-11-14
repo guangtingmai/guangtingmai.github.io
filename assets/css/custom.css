@@ -1,11 +1,19 @@
-.masthead {
-  background-color: #000 !important;
+/* UNIVERSAL override: makes ANY top navigation/header black */
+
+/* Most common header elements */
+header, .header, .site-header, .page-header, .masthead, .navbar, nav {
+    background-color: #000 !important;
+    border-color: #000 !important;
 }
 
-.masthead__menu-item a {
-  color: #fff !important;
+/* Make text/links white */
+header a, .header a, .site-header a, .page-header a, .masthead a, .navbar a, nav a {
+    color: #fff !important;
 }
 
-.masthead__menu-item a:hover {
-  color: #ccc !important;
+/* Hover color */
+header a:hover, .header a:hover, .site-header a:hover,
+.page-header a:hover, .masthead a:hover, .navbar a:hover,
+nav a:hover {
+    color: #ccc !important;
 }
