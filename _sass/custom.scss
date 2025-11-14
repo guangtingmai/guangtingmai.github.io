@@ -1,0 +1,39 @@
+/* BRUTE FORCE: turn every possible header/nav area black */
+header,
+.site-header,
+.page-header,
+.masthead,
+.navbar,
+.top-bar,
+#header,
+#masthead,
+nav,
+nav *,
+.masthead *,
+.site-header *,
+.page-header *,
+header * {
+  background-color: #000 !important;
+  background: #000 !important;
+  border-color: #000 !important;
+  box-shadow: none !important;
+}
+
+/* Make links/text white */
+header a,
+header a *,
+nav a,
+nav a *,
+.masthead a,
+.site-header a,
+.page-header a,
+.top-bar a {
+  color: #fff !important;
+}
+
+/* Hover color */
+header a:hover,
+nav a:hover,
+.masthead a:hover {
+  color: #ccc !important;
+}
