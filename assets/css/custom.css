@@ -1,19 +1,40 @@
-/* UNIVERSAL override: makes ANY top navigation/header black */
+/* BRUTE FORCE: turn every possible header/nav area black */
 
-/* Most common header elements */
-header, .header, .site-header, .page-header, .masthead, .navbar, nav {
-    background-color: #000 !important;
-    border-color: #000 !important;
+header,
+.site-header,
+.page-header,
+.masthead,
+.navbar,
+.top-bar,
+#header,
+#masthead,
+nav,
+nav *,
+.masthead *,
+.site-header *,
+.page-header *,
+header * {
+  background-color: #000 !important;
+  background: #000 !important;
+  border-color: #000 !important;
+  box-shadow: none !important;
 }
 
-/* Make text/links white */
-header a, .header a, .site-header a, .page-header a, .masthead a, .navbar a, nav a {
-    color: #fff !important;
+/* Make links/text white */
+header a,
+header a *,
+nav a,
+nav a *,
+.masthead a,
+.site-header a,
+.page-header a,
+.top-bar a {
+  color: #fff !important;
 }
 
 /* Hover color */
-header a:hover, .header a:hover, .site-header a:hover,
-.page-header a:hover, .masthead a:hover, .navbar a:hover,
-nav a:hover {
-    color: #ccc !important;
+header a:hover,
+nav a:hover,
+.masthead a:hover {
+  color: #ccc !important;
 }
