@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-UK"
-site_theme               : "GuangTing Mai"
+site_theme               : ""
 title                    : "GuangTing Mai"
 title_separator          : " "
 name                     : &name "GuangTing Mai"
