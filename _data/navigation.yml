@@ -23,7 +23,7 @@ main:
  #   url: /year-archive/
  
    - title: "Home"
-    url: /
+    url: /readme/
 
   - title: "About"
     url: /about/
