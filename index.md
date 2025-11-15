@@ -1,5 +1,6 @@
 ---
 layout: home
-permalink: /
-title: "Welcome"
+title: "GuangTing Mai"
+header:
+  overlay_title: "Home"
 ---
