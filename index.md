@@ -2,14 +2,12 @@
 permalink: /
 ---
 
+<html>
 <head>
-  <title>XXX</title>
+    <title>"guangtingmai.github.io"</title>
+    <meta name="google-site-verification" content="PhWQ0Xa6cJ8nnyCTx_t-0EYI7DtVPASuCAGAf-81ie8" />
 </head>
-
-<script>
-  // force navigation highlight for "Home"
-  document.addEventListener("DOMContentLoaded", function() {
-    let homeLinks = document.querySelectorAll('a[href="/"]');
-    homeLinks.forEach(link => link.textContent = "Home");
-  });
-</script>
+<body>
+    
+</body>
+</html>
