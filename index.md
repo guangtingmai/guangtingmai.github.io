@@ -5,7 +5,7 @@ permalink: /
 <html>
 <head>
     <title>"guangtingmai.github.io"</title>
-    <meta name="google-site-verification" content="PhWQ0Xa6cJ8nnyCTx_t-0EYI7DtVPASuCAGAf-81ie8" />
+    <meta name="google-site-verification" content="google14cadc067fc6254a" />
 </head>
 <body>
     
