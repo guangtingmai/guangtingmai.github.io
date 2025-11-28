@@ -25,7 +25,7 @@ author:
   avatar           : "profile.jpg"
   name             : "GuangTing Mai"
   pronouns         : # example: "she/her"  
-  bio              : '<span style="font-size:10.5pt;"><strong>Wellcome Research Fellow,</strong><a href="https://www.cam.ac.uk/">University of Cambridge</a></span><br><br><span style="font-size:9pt;color:#9e9d9d">Name pronunciation:<br>/g-wa<strong>ng</strong>-ting-<strong>my</strong>/</span>'
+  bio              : '<span style="font-size:10.5pt;"><strong>Wellcome Research Fellow,</strong><a href="https://www.cam.ac.uk/">University of Cambridge</a></span><br><br><span style="font-size:9.5pt;color:#9e9d9d">Name pronunciation:<br>/g-wa<strong>ng</strong>-ting-<strong>my</strong>/</span>'
   location         : "UK"
   employer         : # "Red Brick University"
   uri              : # URL
