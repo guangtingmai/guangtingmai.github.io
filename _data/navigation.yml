@@ -36,8 +36,8 @@ main:
   - title: "Photos"
     url: /lifephotos/
 
-  - title: "Contact"
-    url: /contact/
+ # - title: "Contact"
+ #  url: /contact/
 
 
     
