@@ -37,3 +37,26 @@ nav a:hover,
 .masthead a:hover {
   color: #ccc !important;
 }
+
+
+
+/* ===== FULL WIDTH OVERRIDE ===== */
+.page,
+.page__inner,
+.wrapper,
+.container,
+.content,
+.masthead,
+.footer {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+}
+
+/* optional: reduce side padding or remove entirely */
+.page,
+.page__inner,
+.content {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
