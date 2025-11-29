@@ -76,21 +76,3 @@ html, body {
   max-width: 100%;
   margin: 0 auto;
 }
-
-/* LEFT COLUMN: Single white frame */
-.sidebar {
-  background-color: #ffffff !important;
-  padding: 1rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
-  max-width: 100%;     /* adjust width of left frame */
-  margin: 0 0 0 0;
-}
-
-/* Ensure sidebar content fits inside frame */
-.sidebar img,
-.sidebar .author__avatar,
-.sidebar .author__content,
-.sidebar .author__urls-wrapper {
-  max-width: 100%;
-}
