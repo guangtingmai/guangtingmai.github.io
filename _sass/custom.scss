@@ -79,16 +79,16 @@ html, body {
 
 .sidebar {
   position: relative;
-  padding-left: 10% !important;
+  padding-left: 1rem !important;
 }
 
 .sidebar::before {
   content: "";
   position: absolute;
-  top: 6vh;            /* Start at top of sidebar */
+  top: 6rem;            /* Start at top of sidebar */
   left: 0;
   right: 0;
-  height: 82vh;     /* Adjust until it covers profile + bio + follow */
+  height: 82rem;     /* Adjust until it covers profile + bio + follow */
   background: #fff;
   border-radius: 24px;
   box-shadow: 2px 14px 28px rgba(0,0,0,0.1);
