@@ -84,8 +84,8 @@ html, body {
 .sidebar::before {
   content: "";
   position: absolute;
-  top: 5vh;            /* Start at top of sidebar */
-  left: 0;
+  top: 10vh;            /* Start at top of sidebar */
+  left: -10vw;
   right: 0;
   height: 80vh;     /* Adjust until it covers profile + bio + follow */
   background: #fff;
