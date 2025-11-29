@@ -65,14 +65,14 @@ html, body {
 .page {
   min-height: 100%;
   padding-bottom: 0; /* remove extra white space */
-  background-color: #e6e9fa !important;
+  background-color: #f2f7ff !important;
 }
 
 .white-frame {
-  background-color: #fff;
+  background-color: #f2f7ff;
   padding: 1rem;
   border-radius: 16px;
-  box-shadow: 0 10px 24px rgba(0,0,0,0.1);
+  box-shadow: 2px 14px 28px rgba(0,0,0,0.1);
   max-width: 100%;
   margin: 0 0;
 }
