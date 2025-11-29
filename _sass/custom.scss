@@ -84,15 +84,11 @@ html, body {
   margin-right: 2rem !important;
 }
 
-.sidebar::before {
-  content: "";
-  position: relative;
-  /*top: 2.5rem; */           /* Start at top of sidebar */
-  /* left: 0.5rem;*/
-  /* right: 0.5rem;*/
-  /* height: 34rem;  */   /* Adjust until it covers profile + bio + follow */
-  background: #fff;
-  border-radius: 24px;
-  box-shadow: 2px 14px 28px rgba(0,0,0,0.1);
-  z-index: -1;       /* Make it appear behind the content */
+.sidebar-frame {
+    background-color: white;  /* the frame color */
+    padding: 20px;            /* inner spacing for profile, bio, etc. */
+    border-radius: 24px;       /* optional, rounded corners */
+    box-shadow: 2px 14px 28px rgba(0,0,0,0.1);
+    width: 100%;              /* take full width of sidebar */
+    box-sizing: border-box;   /* include padding in width */
 }
