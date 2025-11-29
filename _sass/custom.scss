@@ -61,11 +61,11 @@ body {
 }
 
 /* White frame for your content */
-.page__content {
+.white-frame {
   background-color: #fff;     /* white background for content */
-  padding: 2rem;              /* inner padding */
+  padding: 1rem;              /* inner padding */
   border-radius: 10px;        /* rounded corners */
   box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* subtle shadow */
-  max-width: 1200px;          /* optional: constrain width */
-  margin: 2rem auto;          /* center content with top/bottom spacing */
+  max-width: 100%         /* optional: constrain width */
+  margin: 0 auto;          /* center content with top/bottom spacing */
 }
