@@ -83,8 +83,8 @@ html, body {
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.15);
-  max-width: 300px;     /* adjust width of left frame */
-  margin: 2rem 2rem 2rem 0;
+  max-width: 100%;     /* adjust width of left frame */
+  margin: 0 0 1rem 1rem;
 }
 
 /* Ensure sidebar content fits inside frame */
