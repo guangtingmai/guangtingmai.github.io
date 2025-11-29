@@ -93,3 +93,12 @@ html, body {
   /* Optional padding inside frame */
   margin: 0 0 0 0;
 }
+
+.sidebar .profile-pic {
+    width: 120px;        /* fixed width */
+    height: 120px;       /* fixed height */
+    object-fit: cover;   /* make sure the image fills the box without distortion */
+    border-radius: 50%;  /* circle */
+    display: block;
+    margin: 0 auto;      /* center horizontally */
+}
