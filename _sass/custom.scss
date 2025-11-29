@@ -86,11 +86,11 @@ html, body {
 
 .sidebar::before {
   content: "";
-  position: absolute;
-  top: 2.5rem;            /* Start at top of sidebar */
-  left: 0.5rem;
-  right: 0.5rem;
-  height: 34rem;     /* Adjust until it covers profile + bio + follow */
+  position: relative;
+  /*top: 2.5rem; */           /* Start at top of sidebar */
+  /* left: 0.5rem;*/
+  /* right: 0.5rem;*/
+  /* height: 34rem;  */   /* Adjust until it covers profile + bio + follow */
   background: #fff;
   border-radius: 24px;
   box-shadow: 2px 14px 28px rgba(0,0,0,0.1);
