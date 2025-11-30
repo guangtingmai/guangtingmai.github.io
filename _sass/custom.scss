@@ -83,11 +83,6 @@ nav {
   justify-content: flex-end !important;
 }
 
-/* Hide the site title/name completely */
-.site-title,
-.site-title a,
-header .site-title,
-.masthead .site-title,
-.page-header .site-title {
+.masthead-logo {
   display: none !important;
 }
