@@ -92,3 +92,7 @@ header,
 .masthead__menu-item--lg.persist {
   display: none !important;
 }
+
+.nav__list {
+  margin-left: 1rem; /* moves sidebar slightly to the right */
+}
