@@ -83,12 +83,12 @@ nav {
   justify-content: flex-end !important;
 }
 
-/* Force remove the top name */
-.masthead-logo,
-.masthead-logo * {
-  display: none !important;
-  visibility: hidden !important;
+.masthead-logo {
+  font-size: 0 !important;
   width: 0 !important;
   height: 0 !important;
+  display: inline-block !important;
   overflow: hidden !important;
+  visibility: hidden !important;
+  text-indent: -9999px !important;
 }
