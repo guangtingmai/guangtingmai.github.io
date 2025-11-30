@@ -83,6 +83,12 @@ nav {
   justify-content: flex-end !important;
 }
 
-.masthead-logo {
+/* Force remove the top name */
+.masthead-logo,
+.masthead-logo * {
   display: none !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
 }
