@@ -82,3 +82,12 @@ nav {
   display: flex !important;
   justify-content: flex-end !important;
 }
+
+/* Hide the site title/name completely */
+.site-title,
+.site-title a,
+header .site-title,
+.masthead .site-title,
+.page-header .site-title {
+  display: none !important;
+}
