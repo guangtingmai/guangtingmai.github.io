@@ -82,24 +82,3 @@ nav {
   display: flex !important;
   justify-content: flex-end !important;
 }
-
-/* Hide the top site title/home link */
-.masthead__inner-wrap > a:first-child {
-  display: none !important;
-}
-
-.masthead-logo {
-  display: none !important;
-}
-
-/* Remove default site title "xxx" */
-.masthead-logo,
-.site-title,
-.masthead-logo * {
-  display: none !important;
-  visibility: hidden !important;
-  width: 0 !important;
-  height: 0 !important;
-  overflow: hidden !important;
-  text-indent: -9999px !important;
-}
