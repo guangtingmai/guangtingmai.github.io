@@ -36,8 +36,10 @@ layout: compress
       }
     });
     // Hide the "Home" link / site title
-  const logo = document.querySelector('.masthead-logo');
-  if (logo) logo.remove(); // removes it entirely
+  document.addEventListener("DOMContentLoaded", function() {
+  const logo = document.querySelector('.masthead-logo, .site-title');
+  if (logo) logo.remove(); // removes the element entirely
+});
   });
 </script>
 
