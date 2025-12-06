@@ -49,9 +49,13 @@ html, body {
 /* Sticky footer adjustment */
 .page {
   min-height: 100%;
-  margin-left: 4vw;    /* adjust value */
   padding-bottom: 0; /* remove extra white space */
   background-color: #f2f7ff !important;
+}
+
+.main-content, 
+.page {
+    margin-left: 3vw;   /* pushes main content right */
 }
 
 .white-frame {
