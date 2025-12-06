@@ -53,6 +53,11 @@ html, body {
   background-color: #f2f7ff !important;
 }
 
+/* Force sidebar movement with !important */
+.sidebar {
+    margin-left: -5vw !important;
+    position: relative !important;
+}
 /* Force main content movement */
 .main-content, .page, .content {
     margin-left: 5vw !important;
