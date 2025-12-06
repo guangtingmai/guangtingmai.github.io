@@ -53,9 +53,9 @@ html, body {
   background-color: #f2f7ff !important;
 }
 
-.main-content, 
-.page {
-    margin-left: 3vw !important;  /* pushes main content right */
+/* Force main content movement */
+.main-content, .page, .content {
+    margin-left: 5vw !important;
 }
 
 .white-frame {
