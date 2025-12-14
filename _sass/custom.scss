@@ -79,9 +79,12 @@ header,
 }
 
 /* Hover for hyperlinks*/
-.page__content a {
-  color: #0270c9 !important;
+a {
+  color: #117ed6 !important;
 }
-.page__content a:hover {
+a:hover {
   color: #2c0069;        /* 001e33color when cursor is on it */
+}
+.author__urls a:hover {
+  color: inherit;
 }
