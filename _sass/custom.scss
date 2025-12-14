@@ -85,3 +85,13 @@ a {
 a:hover {
   color: #4d1994 !important;        /* 001e33color when cursor is on it */
 }
+
+.author__urls a,
+.author__urls a:visited {
+  color: #0a0a0a !important;       /* normal color */
+  text-decoration: none;
+}
+
+.author__urls a:hover {
+  color: #4d1994 !important;       /* hover color */
+}
