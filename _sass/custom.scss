@@ -80,11 +80,8 @@ header,
 
 /* Hover for hyperlinks*/
 a {
-  color: #117ed6 !important;
+  color: #1b8ae3 !important;
 }
 a:hover {
-  color: #2c0069;        /* 001e33color when cursor is on it */
-}
-.author__urls a:hover {
-  color: inherit;
+  color: #2c0069 !important;        /* 001e33color when cursor is on it */
 }
