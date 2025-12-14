@@ -79,6 +79,9 @@ header,
 }
 
 /* Hover for hyperlinks*/
-a:hover {
+.page__content a {
+  color: #0270c9 !important;
+}
+.page__content a:hover {
   color: #2c0069;        /* 001e33color when cursor is on it */
 }
