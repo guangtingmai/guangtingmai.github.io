@@ -77,3 +77,11 @@ header,
 .masthead__menu-item--lg.persist {
   display: none !important;
 }
+
+/* Hover for hyperlinks*/
+a {
+  color: #0077cc;        /* normal color */
+}
+a:hover {
+  color: #01243d;        /* color when cursor is on it */
+}
