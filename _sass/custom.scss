@@ -95,3 +95,12 @@ a:hover {
 .author__urls a:hover {
   color: #4d1994 !important;       /* hover color */
 }
+
+<style>
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+</style>
