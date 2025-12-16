@@ -96,13 +96,29 @@ a:hover {
   color: #4d1994 !important;       /* hover color */
 }
 
-.site-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+
+
+
+
+* {
+  box-sizing: border-box;
 }
 
+html,
 body {
-  padding-bottom: 60px; // match footer height
+  margin: 0;
+  padding: 0;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.footer {
+  margin-top: auto; // key line
 }
