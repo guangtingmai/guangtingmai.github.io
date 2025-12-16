@@ -29,15 +29,15 @@ author:
   location         : # "UK"
   employer         : # "Red Brick University"
   uri              : # URL
-  email            : "guangting.mai@mrc-cbu.cam.ac.uk" 
+  email            : # "guangting.mai@mrc-cbu.cam.ac.uk" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=bCQ03mIAAAAJ&hl=en"
-  camneuro         : "https://neuroscience.cam.ac.uk/member/gm832/"
+  googlescholar    : # "https://scholar.google.com/citations?user=bCQ03mIAAAAJ&hl=en"
+  camneuro         : # "https://neuroscience.cam.ac.uk/member/gm832/"
   impactstory      : # URL
-  orcid            : "https://orcid.org/0000-0002-5618-7420"
+  orcid            : # "https://orcid.org/0000-0002-5618-7420"
   semantic         : # URL
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
@@ -47,12 +47,12 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : # "academicpages"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
