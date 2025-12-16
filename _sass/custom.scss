@@ -110,15 +110,6 @@ body {
   padding: 0;
 }
 
-.layout {
-  display: flex;
-  flex-direction: column;
-}
-
-.content {
-  padding: 1rem;
-}
-
-.footer {
-  margin-top: auto; // key line
+footer {
+  padding: 0.5rem 1rem; // keep this small
 }
