@@ -108,5 +108,5 @@ a:hover {
 
 .content {
   flex: 1;            /* take remaining space */
-  margin-left: 2rem;  /* increase space from sidebar */
+  margin-left: 2rem !important;  /* increase space from sidebar */
 }
