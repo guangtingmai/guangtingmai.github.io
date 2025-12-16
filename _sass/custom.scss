@@ -95,3 +95,18 @@ a:hover {
 .author__urls a:hover {
   color: #4d1994 !important;       /* hover color */
 }
+
+/* Layout assumed: .sidebar + .content inside a flex container */
+.layout {
+  display: flex; /* ensures sidebar and content are side by side */
+}
+
+.sidebar {
+  /* Keep sidebar unchanged */
+  flex-shrink: 0; /* sidebar width fixed */
+}
+
+.content {
+  flex: 1;            /* take remaining space */
+  margin-left: 2rem;  /* increase space from sidebar */
+}
