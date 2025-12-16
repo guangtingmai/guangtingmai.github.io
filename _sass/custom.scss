@@ -96,11 +96,13 @@ a:hover {
   color: #4d1994 !important;       /* hover color */
 }
 
-<style>
-  footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-  }
-</style>
+.site-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+body {
+  padding-bottom: 60px; // match footer height
+}
