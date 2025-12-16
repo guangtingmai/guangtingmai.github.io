@@ -96,7 +96,18 @@ a:hover {
   color: #4d1994 !important;       /* hover color */
 }
 
-.page__content {
-  margin-left: 2rem !important; /* adjust value as needed */
-  max-width: calc(100% - 2rem); /* optional: prevent overflow */
+/* Push all right-side content away from the left sidebar */
+.page__content,
+.archive {
+  margin-left: 2rem !important; /* adjust as needed */
+  max-width: calc(100% - 2rem);  /* optional: prevent overflow */
+}
+
+/* Responsive adjustment for small screens */
+@media (max-width: 768px) {
+  .page__content,
+  .archive {
+    margin-left: 0 !important;
+    max-width: 100%;
+  }
 }
