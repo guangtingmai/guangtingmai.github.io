@@ -96,13 +96,8 @@ a:hover {
   color: #4d1994 !important;       /* hover color */
 }
 
-/* Layout assumed: .sidebar + .content inside a flex container */
-.sidebar {
-  width: 250px;         /* fixed sidebar width */
-  flex-shrink: 0;       /* prevent shrinking */
-}
-
-.content {
-  flex: 1;              /* take remaining space */
-  margin-left: 2rem !important;  /* space from sidebar */
+/* Select all direct children of the layout that are NOT the sidebar */
+.layout > *:not(.sidebar) {
+  margin-left: 2rem !important; /* increase space from sidebar */
+  flex: 1 !important;            /* ensure it takes remaining width */
 }
