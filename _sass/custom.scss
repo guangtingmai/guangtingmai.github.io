@@ -97,16 +97,12 @@ a:hover {
 }
 
 /* Layout assumed: .sidebar + .content inside a flex container */
-.layout {
-  display: flex; /* ensures sidebar and content are side by side */
-}
-
 .sidebar {
-  /* Keep sidebar unchanged */
-  flex-shrink: 0; /* sidebar width fixed */
+  width: 250px;         /* fixed sidebar width */
+  flex-shrink: 0;       /* prevent shrinking */
 }
 
 .content {
-  flex: 1;            /* take remaining space */
-  margin-left: 2rem !important;  /* increase space from sidebar */
+  flex: 1;              /* take remaining space */
+  margin-left: 2rem !important;  /* space from sidebar */
 }
