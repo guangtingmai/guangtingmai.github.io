@@ -105,16 +105,20 @@ a:hover {
 .archive > * {
   display: block !important;   /* ensure elements are block-level */
   margin-left: 1.2rem !important; /* push content away from sidebar */
-  margin-right: 2rem !important;
+  margin-right: 1.8rem !important;
   max-width: calc(100% - 2rem);  /* optional: prevent overflow */
   box-sizing: border-box;
 }
 
 /* Optional: responsive adjustment for small screens */
 @media (max-width: 768px) {
-  .page__content > *,
+  .page__content > * {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
   .archive > * {
     margin-left: 0 !important;
+    margin-right: 0 !important;
   }
 }
 
