@@ -116,3 +116,7 @@ a:hover {
     margin-left: 0 !important;
   }
 }
+
+div {
+  display: block !important; /* spans stack vertically */
+}
