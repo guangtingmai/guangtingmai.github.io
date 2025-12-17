@@ -104,8 +104,8 @@ a:hover {
 
 .archive > * {
   display: block !important;   /* ensure elements are block-level */
-  margin-left: 2rem !important; /* push content away from sidebar */
-  margin-right: 3rem !important;
+  margin-left: 1.5rem !important; /* push content away from sidebar */
+  margin-right: 2rem !important;
   max-width: calc(100% - 2rem);  /* optional: prevent overflow */
   box-sizing: border-box;
 }
@@ -125,7 +125,7 @@ div.navigation-row {
   font-size: 11.5pt !important;
   font-family: Tahoma !important;
   line-height: 1.5 !important;
-  width: 90%;                             /* ensure it spans container */
+  width: 86%;                             /* ensure it spans contain */
 }
 
 /* Optional: ensure spans don’t collapse */
@@ -152,7 +152,7 @@ div.navigation-row span {
 .masthead a,
 .masthead__menu-item {
   position: relative;      /* enable positional adjustment */
-  left: -2rem !important; /* move slightly left (adjust value as needed) */
+  left: -1.5rem !important; /* move slightly left (adjust value as needed) */
 }
 
 @media (max-width: 768px) {
