@@ -103,11 +103,4 @@ a:hover {
   max-width: calc(100% - 2rem);  /* optional: prevent overflow */
 }
 
-/* Responsive adjustment for small screens */
-@media (max-width: 768px) {
-  .page__content,
-  .archive {
-    margin-left: 0 !important;
-    max-width: 100%;
-  }
-}
+
