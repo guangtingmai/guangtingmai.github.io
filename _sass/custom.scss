@@ -105,7 +105,7 @@ a:hover {
 .archive > * {
   display: block !important;   /* ensure elements are block-level */
   margin-left: 1.5rem !important; /* push content away from sidebar */
-  margin-right: 2rem !important;
+  margin-right: 4rem !important;
   max-width: calc(100% - 2rem);  /* optional: prevent overflow */
   box-sizing: border-box;
 }
@@ -152,7 +152,7 @@ div.navigation-row span {
 .masthead a,
 .masthead__menu-item {
   position: relative;      /* enable positional adjustment */
-  left: -1.5rem !important; /* move slightly left (adjust value as needed) */
+  left: -2.5rem !important; /* move slightly left (adjust value as needed) */
 }
 
 @media (max-width: 768px) {
