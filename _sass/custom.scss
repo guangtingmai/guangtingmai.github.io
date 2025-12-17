@@ -148,3 +148,19 @@ div.navigation-row span {
     gap: 1rem !important;        /* reduce gap */
   }
 }
+
+.masthead a,
+.masthead__menu-item {
+  position: relative;      /* enable positional adjustment */
+  left: -2rem !important; /* move slightly left (adjust value as needed) */
+}
+
+@media (max-width: 768px) {
+  .masthead a,
+  .masthead__menu-item {
+    position: static !important; /* remove relative positioning */
+    left: 0 !important;          /* reset nudge */
+    text-align: left !important; /* align text left */
+    display: block !important;   /* stack vertically if needed */
+  }
+}
