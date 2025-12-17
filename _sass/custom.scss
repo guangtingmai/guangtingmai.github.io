@@ -105,6 +105,7 @@ a:hover {
 .archive > * {
   display: block !important;   /* ensure elements are block-level */
   margin-left: 2rem !important; /* push content away from sidebar */
+  max-width: calc(100% - 2rem);  /* optional: prevent overflow */
   box-sizing: border-box;
 }
 
