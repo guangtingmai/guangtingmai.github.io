@@ -102,23 +102,16 @@ a:hover {
   max-width: calc(100% - 2rem);  /* optional: prevent overflow */
 }
 
-/* Push all inner content of archive to the right without affecting sidebar */
-.archive {
-  padding-left: 2rem !important; /* move content away from sidebar */
-  box-sizing: border-box;        /* ensure padding doesn’t overflow */
+.archive > * {
+  display: block !important;   /* ensure elements are block-level */
+  margin-left: 2rem !important; /* push content away from sidebar */
+  box-sizing: border-box;
 }
 
-/* Optional: adjust line-height or span display if needed */
-.archive span,
-.archive p {
-  display: block;
-  line-height: 1.5;
-}
-
-/* Responsive adjustment */
+/* Optional: responsive adjustment for small screens */
 @media (max-width: 768px) {
-  .page__content,
-  .archive {
-    padding-left: 0 !important;
+  .page__content > *,
+  .archive > * {
+    margin-left: 0 !important;
   }
 }
