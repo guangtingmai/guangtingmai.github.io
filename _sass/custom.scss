@@ -140,3 +140,10 @@ div.navigation-row span {
   flex-wrap: wrap;                     /* wrap items if screen is small */
   align-items: center;                 /* vertically center items */
 }
+
+@media (max-width: 768px) {
+  .flex-row {
+    justify-content: flex-start; /* left-align on small screens */
+    gap: 1rem !important;        /* reduce gap */
+  }
+}
