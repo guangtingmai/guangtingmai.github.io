@@ -104,8 +104,8 @@ a:hover {
 
 .archive > * {
   display: block !important;   /* ensure elements are block-level */
-  margin-left: 1rem !important; /* push content away from sidebar */
-  margin-right: 8rem !important;
+  margin-left: 2rem !important; /* push content away from sidebar */
+  margin-right: 7rem !important;
   max-width: calc(100% - 2rem);  /* optional: prevent overflow */
   box-sizing: border-box;
 }
@@ -140,8 +140,8 @@ div.navigation-row span {
 .flex-row {
   display: flex !important;
   justify-content: center !important; /* center content horizontally */
-  gap: 2rem !important;               /* fixed gap, more consistent than % */
-  margin: 1.5em 0 !important;         /* top & bottom spacing */
+  gap: 1.5rem !important;               /* fixed gap, more consistent than % */
+  margin: 1.8em 0 !important;         /* top & bottom spacing */
   flex-wrap: wrap;                     /* wrap items if screen is small */
   align-items: center;                 /* vertically center items */
 }
