@@ -110,7 +110,7 @@ a:hover {
   box-sizing: border-box;
 }
 
-@container (max-width: 50vw) {
+@container (max-width: 70vw) {
   .archive > * {
   display: block !important;   /* ensure elements are block-level */
   margin-left: 2rem !important; /* push content away from sidebar */
