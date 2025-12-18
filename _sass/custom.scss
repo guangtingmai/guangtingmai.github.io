@@ -114,13 +114,10 @@ a:hover {
   container-type: inline-size;
 }
 
-@container (max-width: 900px) {
-  .archive > * {
-    display: block !important;   /* ensure elements are block-level */
-    margin-left: 2rem !important; /* push content away from sidebar */
-    margin-right: 0rem !important;
-    max-width: calc(100% - 2rem);  /* optional: prevent overflow */
-    box-sizing: border-box;
+@container (max-width: 980px) {
+  .archive {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
   }
 }
 
