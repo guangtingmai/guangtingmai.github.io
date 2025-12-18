@@ -110,6 +110,16 @@ a:hover {
   box-sizing: border-box;
 }
 
+@container (max-width: 50vw) {
+  .archive > * {
+  display: block !important;   /* ensure elements are block-level */
+  margin-left: 2rem !important; /* push content away from sidebar */
+  margin-right: 0 !important;
+  max-width: calc(100% - 2rem);  /* optional: prevent overflow */
+  box-sizing: border-box;
+}
+}
+
 /* Optional: responsive adjustment for small screens */
 @media (max-width: 768px) {
   .page__content > * {
