@@ -140,7 +140,7 @@ div.navigation-row span {
 .flex-row {
   display: flex !important;
   justify-content: center !important; /* center content horizontally */
-  gap: 1rem !important;               /* fixed gap, more consistent than % */
+  gap: 1.5rem !important;               /* fixed gap, more consistent than % */
   margin: 1.8em 0 !important;         /* top & bottom spacing */
   flex-wrap: wrap;                     /* wrap items if screen is small */
   align-items: center;                 /* vertically center items */
