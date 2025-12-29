@@ -99,15 +99,15 @@ a:hover {
 /* Push all right-side content away from the left sidebar */
 .page__content {
   margin-left: 2rem !important; /* adjust as needed */
-  width: 90%;
+  width: 86%;
   max-width: 95%;  /* optional: prevent overflow */
 }
 
 .archive > * {
   display: block !important;   /* ensure elements are block-level */
   margin-left: 1rem !important; /* push content away from sidebar */
-  width: 84%;
-  max-width: 94%;
+  width: 82%;
+  max-width: 92%;
   box-sizing: border-box;
 }
 
@@ -151,7 +151,7 @@ div.navigation-row span {
   align-items: center;                 /* vertically center items */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .flex-row {
     justify-content: flex-start; /* left-align on small screens */
     gap: 1rem !important;        /* reduce gap */
@@ -164,7 +164,7 @@ div.navigation-row span {
   left: -1rem !important; /* move slightly left (adjust value as needed) */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .masthead a,
   .masthead__menu-item {
     position: static !important; /* remove relative positioning */
