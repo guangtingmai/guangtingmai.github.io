@@ -99,13 +99,14 @@ a:hover {
 /* Push all right-side content away from the left sidebar */
 .page__content {
   margin-left: 2rem !important; /* adjust as needed */
+  margin-right: 1rem !important; /* adjust as needed */
   max-width: calc(100% - 2rem);  /* optional: prevent overflow */
 }
 
 .archive > * {
   display: block !important;   /* ensure elements are block-level */
   margin-left: 1rem !important; /* push content away from sidebar */
-  margin-right: 5rem !important;
+  margin-right: 6rem !important;
   max-width: calc(100% - 2rem);  /* optional: prevent overflow */
   box-sizing: border-box;
 }
