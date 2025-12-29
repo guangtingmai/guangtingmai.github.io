@@ -151,7 +151,7 @@ div.navigation-row span {
   align-items: center;                 /* vertically center items */
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
   .flex-row {
     justify-content: flex-start; /* left-align on small screens */
     gap: 1rem !important;        /* reduce gap */
@@ -164,7 +164,7 @@ div.navigation-row span {
   left: -1rem !important; /* move slightly left (adjust value as needed) */
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
   .masthead a,
   .masthead__menu-item {
     position: static !important; /* remove relative positioning */
