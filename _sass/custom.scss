@@ -100,14 +100,14 @@ a:hover {
 .page__content {
   margin-left: 2rem !important; /* adjust as needed */
   width: 81%;
-  max-width: 90%;  /* optional: prevent overflow */
+  max-width: 86%;  /* optional: prevent overflow */
 }
 
 .archive > * {
   display: block !important;   /* ensure elements are block-level */
   margin-left: 1rem !important; /* push content away from sidebar */
   width: 78%;
-  max-width: 92%;
+  max-width: 88%;
   box-sizing: border-box;
 }
 
