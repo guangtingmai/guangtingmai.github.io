@@ -174,7 +174,8 @@ div.navigation-row span {
   }
 }
 
-.sidebar {
-  width: 560px;
-  flex: 0 0 560px;
+.sidebar__right {
+  width: 360px !important;
+  max-width: 360px !important;
+  flex: 0 0 360px !important;
 }
