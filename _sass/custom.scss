@@ -174,7 +174,7 @@ div.navigation-row span {
   }
 }
 
-/* Sidebar background color */
-.sidebar {
-  background-color: #f2f4f8;   /* light grey / blue */
+/* Pull sidebar left */
+.sidebar__right {
+  margin-left: -40px;   /* adjust value */
 }
