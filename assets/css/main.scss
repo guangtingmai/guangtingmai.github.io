@@ -7,7 +7,6 @@
  * Note that the files are processed in the order they are imported, so they are partly
    sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
-@import "minimal-mistakes";
 @import
     "custom",
     "vendor/breakpoint/breakpoint",
@@ -43,8 +42,3 @@
     "vendor/magnific-popup/magnific-popup"
 ;
 
-.sidebar__right {
-  width: 360px !important;
-  max-width: 360px !important;
-  flex: 0 0 360px !important;
-}
