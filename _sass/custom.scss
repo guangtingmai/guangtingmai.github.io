@@ -174,7 +174,7 @@ div.navigation-row span {
   }
 }
 
-/* Pull sidebar left */
-.sidebar__right {
-  margin-left: -40px !important;   /* adjust value */
+.sidebar {
+  width: 360px;
+  flex: 0 0 360px;
 }
