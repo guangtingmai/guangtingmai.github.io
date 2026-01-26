@@ -179,3 +179,13 @@ div.navigation-row span {
   max-width: 460px !important;
   flex: 0 0 460px !important;
 }
+
+/* Widen left sidebar */
+.sidebar {
+  width: 360px !important;  // default is ~260px
+}
+
+/* Push main content to the right accordingly */
+.wrap {
+  margin-left: 360px !important;
+}
