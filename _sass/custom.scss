@@ -182,7 +182,10 @@ div.navigation-row span {
 
 /* Widen left sidebar */
 .sidebar {
-  width: 300px !important;  // default is ~260px
+  width: 320px !important;  // default is ~260px
+  min-width: 320px !important;
+  max-width: 320px !important;
+  box-sizing: border-box !important;
 }
 
 /* Push main content to the right accordingly */
