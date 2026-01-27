@@ -183,8 +183,9 @@ div.navigation-row span {
 
 @media (max-width: 900px) {
   .sidebar > * {
-    width: 120% !important;
-    max-width: 120% !important;
+    width: 400ch !important;
+    min-width: 400ch !important;
+    max-width: 400ch !important;
     box-sizing: border-box !important;
   }
 }
