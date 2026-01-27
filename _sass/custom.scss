@@ -105,9 +105,9 @@ a:hover {
 
 .archive > * {
   display: block !important;   /* ensure elements are block-level */
-  margin-left: 1rem !important; /* push content away from sidebar */
-  width: 81%;
-  max-width: 92%;
+  margin-left: 2rem !important; /* push content away from sidebar */
+  width: 75ch;
+  max-width: 100%;
   box-sizing: border-box;
 }
 
