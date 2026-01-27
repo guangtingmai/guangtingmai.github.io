@@ -116,7 +116,7 @@ a:hover {
   .page__content > * {
     margin-left: 0 !important;
     margin-right: 0 !important;
-    width: 100% !important;
+    width: 90% !important;
     max-width: 100% !important;
   }
   .archive > * {
@@ -183,9 +183,9 @@ div.navigation-row span {
 
 @media (max-width: 900px) {
   .sidebar > * {
-    width: 50ch !important;
-    min-width: 50ch !important;
-    max-width: 50ch !important;
+    width: 45ch !important;
+    min-width: 45ch !important;
+    max-width: 45ch !important;
     box-sizing: border-box !important;
   }
 }
