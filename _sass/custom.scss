@@ -112,7 +112,7 @@ a:hover {
 }
 
 /* Optional: responsive adjustment for small screens */
-@media (max-width: 1520px) {
+@media (max-width: 768px) {
   .page__content > * {
     margin-left: 0 !important;
     margin-right: 0 !important;
@@ -124,6 +124,10 @@ a:hover {
     margin-right: 0 !important;
     width: 94% !important;
     max-width: 100% !important;
+  }
+  .sidebar > * {
+  width: 100% !important;
+  max-width: 100% !important;
   }
 }
 
