@@ -105,8 +105,8 @@ a:hover {
 
 .archive > * {
   display: block !important;   /* ensure elements are block-level */
-  margin-left: 2rem !important; /* push content away from sidebar */
-  width: 75ch;
+  margin-left: 2.5rem !important; /* push content away from sidebar */
+  width: 85ch;
   max-width: 100%;
   box-sizing: border-box;
 }
@@ -181,7 +181,7 @@ div.navigation-row span {
   box-sizing: border-box !important;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 800px) {
   .sidebar > * {
     width: 420px !important;
     min-width: 420px !important;
