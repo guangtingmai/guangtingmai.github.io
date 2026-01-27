@@ -174,17 +174,11 @@ div.navigation-row span {
   }
 }
 
-.sidebar__left {
-  width: 460px !important;
-  max-width: 460px !important;
-  flex: 0 0 460px !important;
-}
-
 /* Widen left sidebar */
 .sidebar {
-  width: 320px !important;  // default is ~260px
-  min-width: 320px !important;
-  max-width: 320px !important;
+  width: 300px !important;  // default is ~260px
+  min-width: 300px !important;
+  max-width: 300px !important;
   box-sizing: border-box !important;
 }
 
