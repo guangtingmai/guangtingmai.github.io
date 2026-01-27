@@ -125,7 +125,7 @@ a:hover {
     width: 94% !important;
     max-width: 100% !important;
   }
-  .sidebar > * {
+  .sidebar {
   width: 100% !important;
   max-width: 100% !important;
   }
@@ -183,9 +183,4 @@ div.navigation-row span {
   width: 22ch !important;  // default is ~260px
   max-width: 100% !important;
   box-sizing: border-box !important;
-}
-
-/* Push main content to the right accordingly */
-.wrap {
-  margin-left: 360px !important;
 }
