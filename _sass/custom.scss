@@ -99,15 +99,15 @@ a:hover {
 /* Push all right-side content away from the left sidebar */
 .page__content {
   margin-left: 2rem !important; /* adjust as needed */
-  width: 90%;
-  max-width: 100%;  /* optional: prevent overflow */
+  width: 75ch;
+  max-width: 75ch;  /* optional: prevent overflow */
 }
 
 .archive > * {
   display: block !important;   /* ensure elements are block-level */
   margin-left: 2.5rem !important; /* push content away from sidebar */
-  width: 85ch;
-  max-width: 100%;
+  width: 88ch;
+  max-width: 88ch;
   box-sizing: border-box;
 }
 
