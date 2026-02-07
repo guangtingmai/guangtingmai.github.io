@@ -28,7 +28,10 @@ main:
     url: /bio/
 
   - title: "Research"
-    url: /research/
+    url: /research-content/
+
+  - title: "Links"
+    url: /research-links/
 
   - title: "CrossModal-CI"
     url: /crossmodal-ci/
