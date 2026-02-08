@@ -163,6 +163,9 @@ div.navigation-row span {
   top: 0;
   z-index: 1000;           /* masthead stays below top-bio */
 }
+.masthead .tabs {
+  flex-wrap: nowrap;
+}
 /* Hide the default site title in masthead */
 .masthead__menu-item--lg.persist {
   display: none !important;
