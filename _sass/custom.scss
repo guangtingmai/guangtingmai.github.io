@@ -215,7 +215,7 @@ div.navigation-row span {
 .masthead {
   position: sticky;
   top: 0;
-  z-index: 1000;      // masthead stays below top-bio
+  z-index: 1000 !important;      // masthead stays below top-bio
 }
 
 
