@@ -158,7 +158,7 @@ div.navigation-row span {
   position: relative;      /* enable positional adjustment */
   left: -3rem !important; /* move slightly left (adjust value as needed) */
 }
-.masthead {
+.masthead-container .masthead {
   position: sticky;
   top: 0;
   z-index: 1000;           /* masthead stays below top-bio */
