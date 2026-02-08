@@ -174,13 +174,11 @@ div.navigation-row span {
   }
 }
 
-.top-bio {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-  padding: 1.5rem 2rem;
-  border-bottom: 1px solid #e5e5e5;
-}
+
+
+
+
+
 
 .top-bio__avatar {
   width: 110px;
@@ -197,6 +195,28 @@ div.navigation-row span {
   margin: 0.3rem 0;
 }
 
+.top-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-bio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.5rem 2rem;
+  background-color: #fff;
+  z-index: 1100;      // higher than masthead
+  position: relative;  // ensure it stacks above nav
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 1000;      // masthead stays below top-bio
+}
 
 
 /* Widen left sidebar */
