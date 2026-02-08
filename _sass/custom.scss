@@ -170,6 +170,9 @@ div.navigation-row span {
 .masthead__menu-item--lg.persist {
   display: none !important;
 }
+.masthead .tabs {
+  display: none !important;
+}
 
 @media (max-width: 768px) {
   .masthead a,
