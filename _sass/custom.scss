@@ -169,7 +169,7 @@ div.navigation-row span {
   height: 0 !important;
   overflow: hidden !important;
 }
-.masthead__menu .visible-links {
+.masthead__menu > ul.visible-links {
   display: none !important;
   height: 0 !important;
   overflow: hidden !important;
