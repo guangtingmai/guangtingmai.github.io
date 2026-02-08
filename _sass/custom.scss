@@ -163,16 +163,17 @@ div.navigation-row span {
   top: 0 !important;
   z-index: 1000 !important;           /* masthead stays below top-bio */
 }
-.masthead .tabs {
-  flex-wrap: nowrap !important;
+.masthead__tabs,
+.masthead-tabs {
+  display: none !important;
+  height: 0 !important;
+  overflow: hidden !important;
 }
 /* Hide the default site title in masthead */
 .masthead__menu-item--lg.persist {
   display: none !important;
 }
-.masthead .tabs {
-  display: none !important;
-}
+
 
 @media (max-width: 768px) {
   .masthead a,
