@@ -174,55 +174,29 @@ div.navigation-row span {
   }
 }
 
-.sidebar {
-  width: 100%;
-  float: none;
+.top-bio {
   display: flex;
   align-items: center;
   gap: 1.5rem;
   padding: 1.5rem 2rem;
-  margin: 0;
   border-bottom: 1px solid #e5e5e5;
-  background: #fff;
 }
 
-/* Profile image */
-.sidebar .author__avatar {
-  flex: 0 0 auto;
-}
-
-.sidebar .author__avatar img {
-  max-width: 110px;
+.top-bio__avatar {
+  width: 110px;
   border-radius: 6px;
 }
 
-/* Bio text */
-.sidebar .author__content {
-  flex: 1 1 auto;
+.top-bio__name {
+  font-size: 1.7rem;
+  margin: 0;
 }
 
-/* Name */
-.sidebar .author__name {
-  font-size: 1.6rem;
-  margin-bottom: 0.2rem;
+.top-bio__role {
+  color: #fff;
+  margin: 0.3rem 0;
 }
 
-/* Title + affiliation */
-.sidebar .author__bio {
-  font-size: 0.95rem;
-  line-height: 1.4;
-  color: #555;
-}
-
-/* Social links inline */
-.sidebar .author__urls {
-  margin-top: 0.5rem;
-}
-
-.sidebar .author__urls li {
-  display: inline-block;
-  margin-right: 0.8rem;
-}
 
 
 /* Widen left sidebar */
