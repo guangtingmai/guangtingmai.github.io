@@ -161,6 +161,7 @@ div.navigation-row span {
 .masthead-container .masthead {
   position: relative !important;
   top: 0 !important;
+  margin-top: 80px !important;
   z-index: 1000 !important;           /* masthead stays below top-bio */
 }
 /* Hide the default site title in masthead */
@@ -221,6 +222,11 @@ div.navigation-row span {
 #main {
   padding-top: 80px;
 }
+
+
+
+
+
 /* Widen left sidebar */
 .sidebar {
   width: 21ch !important;  // default is ~260px
