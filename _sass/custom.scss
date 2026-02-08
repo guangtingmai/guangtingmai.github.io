@@ -159,20 +159,9 @@ div.navigation-row span {
   left: -3rem !important; /* move slightly left (adjust value as needed) */
 }
 .masthead-container .masthead {
-  position: sticky !important;
+  position: relative !important;
   top: 0 !important;
   z-index: 1000 !important;           /* masthead stays below top-bio */
-}
-.masthead__tabs,
-.masthead-tabs {
-  display: none !important;
-  height: 0 !important;
-  overflow: hidden !important;
-}
-.masthead__menu > ul.visible-links {
-  display: none !important;
-  height: 0 !important;
-  overflow: hidden !important;
 }
 /* Hide the default site title in masthead */
 .masthead__menu-item--lg.persist {
