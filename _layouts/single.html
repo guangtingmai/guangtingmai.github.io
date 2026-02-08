@@ -24,11 +24,10 @@ layout: default
     {% include masthead.html %}
   </div>
 
-<!-- JS hide masthead 上层 tabs -->
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   const mastheadTabs = document.querySelector(".masthead__menu > ul.visible-links");
-  if (mastheadTabs) mastheadTabs.style.display = "none";
+  if (mastheadTabs) mastheadTabs.remove(); // 直接删除 DOM
 });
 </script>
 
