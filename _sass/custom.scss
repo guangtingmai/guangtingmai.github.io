@@ -164,6 +164,12 @@ div.navigation-row span {
   left: -3rem !important; /* move slightly left (adjust value as needed) */
 }
 
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 1000 !important;      // masthead stays below top-bio
+}
+
 @media (max-width: 768px) {
   .masthead a,
   .masthead__menu-item {
@@ -201,9 +207,9 @@ div.navigation-row span {
 }
 
 .top-bio {
-  position: sticky;  // or fixed if you want it always visible
-  top: 0;            // anchor at top
-  z-index: 2000;     // higher than masthead
+  position: sticky !important;  // or fixed if you want it always visible
+  top: 0 !important;            // anchor at top
+  z-index: 2000 !important;     // higher than masthead
   background: #fff;
   padding: 1.5rem 2rem;
   border-bottom: 1px solid #e5e5e5;
@@ -211,13 +217,6 @@ div.navigation-row span {
   align-items: center;
   gap: 1.5rem;
 }
-
-.masthead {
-  position: sticky;
-  top: 0;
-  z-index: 1000 !important;      // masthead stays below top-bio
-}
-
 
 /* Widen left sidebar */
 .sidebar {
