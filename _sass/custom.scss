@@ -158,10 +158,10 @@ div.navigation-row span {
   position: relative;      /* enable positional adjustment */
   left: -3rem !important; /* move slightly left (adjust value as needed) */
 }
-.masthead {
+.masthead-container .masthead {
   position: sticky;
-  top: -10 !important;            // anchor at top
-  z-index: 500 !important;      // masthead stays below top-bio
+  top: 0;
+  z-index: 1000;           /* masthead stays below top-bio */
 }
 /* Hide the default site title in masthead */
 .masthead__menu-item--lg.persist {
