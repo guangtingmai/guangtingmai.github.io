@@ -178,7 +178,10 @@ div.navigation-row span {
 .masthead__menu-item--lg.persist {
   display: none !important;
 }
-
+/* 下层 page tabs 保留 */
+.page-tabs {
+  display: flex; /* 或原本样式 */
+}
 
 @media (max-width: 768px) {
   .masthead a,
