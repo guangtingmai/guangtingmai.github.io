@@ -94,7 +94,6 @@ a:hover {
 
 /* Push all right-side content away from the left sidebar */
 .page__content {
-  margin-left: 3rem !important; /* adjust as needed */
   width: 64ch !important;
   max-width: 120% !important;  /* optional: prevent overflow */
 }
@@ -161,8 +160,10 @@ div.navigation-row span {
 }
 .masthead {
   position: fixed !important;
-  margin-top: 8rem !important;
-  height: 2rem !important;
+  width: 200% !important;
+  margin-top: 6rem !important;
+  padding: 0.2rem 0.2rem;
+  height: 1rem !important;
   z-index: 9998 !important;
 }
 .masthead-container .masthead {
@@ -189,7 +190,7 @@ div.navigation-row span {
   position: fixed !important;  // or fixed if you want it always visible
   top: 0 !important;            // anchor at top
   width: 200% !important;
-  height: 8.3rem !important;
+  height: 6rem !important;
   background: #fff !important;
   padding: 1rem 1rem;
   border-bottom: 1px solid #e5e5e5;
@@ -197,7 +198,7 @@ div.navigation-row span {
   align-items: center;
   gap: 1.5rem;
   z-index: 9999 !important;
-  margin-top: -0.3rem !important;
+  margin-top: 0 !important;
 }
 .top-bio__avatar {
   width: 110px;
@@ -236,5 +237,6 @@ div.navigation-row span {
 #main {
   position: stactic !important;
   z-index: 1 !important;
-  margin-top: 15rem !important;
+  margin-top: 10rem !important;
+  margin-left: -5rem !important;
 }
