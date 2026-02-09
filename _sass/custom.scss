@@ -232,7 +232,7 @@ div.navigation-row span {
 }
 
 #main {
-  position: relative;
-  z-index: 1;
-  margin-top: 40rem;
+  position: relative !important;
+  z-index: 1 !important;
+  margin-top: 40rem !important;
 }
