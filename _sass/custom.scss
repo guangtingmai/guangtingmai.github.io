@@ -208,13 +208,6 @@ div.navigation-row span {
   flex-direction: column;
 }
 
-.masthead {
-  position: relative;
-  z-index: 1000; /* 比 top-bio 低 */
-  margin-top: 0; /* 👈 用负 margin 把 tab 推上去 */
-}
-
-
 /* Widen left sidebar */
 .sidebar {
   width: 21ch !important;  // default is ~260px
