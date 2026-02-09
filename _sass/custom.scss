@@ -156,11 +156,11 @@ div.navigation-row span {
 .masthead a,
 .masthead__menu-item {
   position: relative;      /* enable positional adjustment */
-  left: -2% !important; /* move slightly left (adjust value as needed) */
+  left: -5% !important; /* move slightly left (adjust value as needed) */
 }
 .masthead {
   position: fixed !important;
-  width: 100% !important;
+  width: 130% !important;
   margin-top: 6rem !important;
   height: 2rem !important;
   z-index: 9998 !important;
