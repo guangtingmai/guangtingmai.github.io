@@ -128,8 +128,8 @@ div.navigation-row {
   justify-content: space-between !important; /* space spans properly */
   font-size: 11.5pt !important;
   font-family: Tahoma !important;
-  line-height: 1.5 !important;
-  width: 100%;                             /* ensure it spans contain */
+  line-height: 1.3 !important;
+  width: 80ch;                             /* ensure it spans contain */
 }
 
 /* Optional: ensure spans don’t collapse */
