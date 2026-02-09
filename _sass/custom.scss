@@ -163,6 +163,7 @@ div.navigation-row span {
   position: fixed !important;
   margin-top: 10rem !important;
   height: 2rem !important;
+  z-index: 9998 !important;
 }
 .masthead-container .masthead {
   position: relative;
@@ -194,6 +195,7 @@ div.navigation-row span {
   display: flex;
   align-items: center;
   gap: 1.5rem;
+  z-index: 9999 !important;
 }
 .top-bio__avatar {
   width: 110px;
