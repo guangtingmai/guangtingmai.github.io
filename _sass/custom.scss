@@ -64,10 +64,10 @@ html, body {
 }
 
 /* Right-align the navigation */
-nav {
+/*nav {
   display: flex !important;
-  justify-content: flex-start !important;
-}
+  justify-content: flex-end !important;
+}*/
 
 header,
 .site-header {
@@ -163,7 +163,7 @@ div.navigation-row span {
   width: 200% !important;
   margin-top: 6rem !important;
   margin-left: -40rem !important;
-  height: 2rem !important;
+  height: 4rem !important;
   z-index: 9998 !important;
 }
 
