@@ -167,6 +167,7 @@ div.navigation-row span {
 .greedy-nav .visible-links {
   display: flex;
   justify-content: flex-start !important;
+  margin-left: 0 !important;
 }
 /* Hide the default site title in masthead */
 .masthead__menu-item--lg.persist {
