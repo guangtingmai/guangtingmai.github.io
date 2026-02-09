@@ -155,19 +155,10 @@ div.navigation-row span {
 }
 .masthead {
   position: fixed !important;
-  width: 200% !important;
   margin-top: 6rem !important;
-  margin-left: -40% !important;
+  margin-left: -50% !important;
   height: 3.5rem !important;
   z-index: 9998 !important;
-}
-.masthead__inner-wrap {
-  justify-content: flex-start !important;
-}
-.greedy-nav .visible-links {
-  display: flex;
-  justify-content: flex-start !important;
-  margin-left: 0 !important;
 }
 /* Hide the default site title in masthead */
 .masthead__menu-item--lg.persist {
