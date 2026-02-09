@@ -166,7 +166,7 @@ div.navigation-row span {
 }
 .masthead-container .masthead {
   position: relative;
-  z-index: 9998;
+  z-index: 9998 !important;
 }
 
 /* Hide the default site title in masthead */
