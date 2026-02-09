@@ -159,7 +159,7 @@ div.navigation-row span {
   left: -3rem !important; /* move slightly left (adjust value as needed) */
 }
 .masthead-container .masthead {
-  position: static !important;
+  position: fixed !important;
   top: 0 !important;
   margin-top: 4rem !important;
   padding-top: 0.15rem !important;
@@ -167,10 +167,10 @@ div.navigation-row span {
   z-index: 1000 !important;           /* masthead stays below top-bio */
 }
 .masthead-container .greedy-nav {
-  position: static !important;
+  position: fixed !important;
 }
 .masthead-container {
-  position: static !important;
+  position: fixed !important;
   top: auto !important;
   transform: none !important;
 }
