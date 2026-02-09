@@ -159,10 +159,10 @@ div.navigation-row span {
   position: relative;      /* enable positional adjustment */
   left: -3rem !important; /* move slightly left (adjust value as needed) */
 }
-.masthead-container .masthead {
-  position: relative !important;
-  z-index: 1000;
-  margin-top: 80px;
+.masthead {
+  position: sticky !important;
+  z-index: 1000 !important;
+  margin-top: 100px !important;
 }
 
 /* Hide the default site title in masthead */
@@ -184,7 +184,7 @@ div.navigation-row span {
   position: sticky !important;  // or fixed if you want it always visible
   top: 0 !important;            // anchor at top
   z-index: 2000 !important;     // higher than masthead
-  background: #fff;
+  background: #fff !important;
   padding: 1.5rem 2rem;
   border-bottom: 1px solid #e5e5e5;
   display: flex;
