@@ -161,7 +161,7 @@ div.navigation-row span {
 }
 .masthead {
   position: fixed !important;
-  margin-top: 10rem !important;
+  margin-top: 8rem !important;
   height: 2rem !important;
   z-index: 9998 !important;
 }
@@ -188,7 +188,8 @@ div.navigation-row span {
 .top-bio {
   position: fixed !important;  // or fixed if you want it always visible
   top: 0 !important;            // anchor at top
-  height: 10rem !important;
+  width: 200% !important;
+  height: 8.3rem !important;
   background: #fff !important;
   padding: 1rem 1rem;
   border-bottom: 1px solid #e5e5e5;
@@ -196,6 +197,7 @@ div.navigation-row span {
   align-items: center;
   gap: 1.5rem;
   z-index: 9999 !important;
+  margin-top: -0.3rem !important;
 }
 .top-bio__avatar {
   width: 110px;
@@ -234,5 +236,5 @@ div.navigation-row span {
 #main {
   position: stactic !important;
   z-index: 1 !important;
-  margin-top: 20rem !important;
+  margin-top: 15rem !important;
 }
