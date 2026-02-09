@@ -211,7 +211,7 @@ div.navigation-row span {
 .masthead {
   position: relative;
   z-index: 1000; /* 比 top-bio 低 */
-  margin-top: -80px; /* 👈 用负 margin 把 tab 推上去 */
+  margin-top: 0; /* 👈 用负 margin 把 tab 推上去 */
 }
 
 
