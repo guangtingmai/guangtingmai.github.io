@@ -161,13 +161,18 @@ div.navigation-row span {
 .masthead-container .masthead {
   position: static !important;
   top: 0 !important;
-  margin-top: 10rem !important;
-  padding-top: 0.25rem !important;
-  padding-bottom: 0.25rem !important;
+  margin-top: 4rem !important;
+  padding-top: 0.15rem !important;
+  padding-bottom: 0.15rem !important;
   z-index: 1000 !important;           /* masthead stays below top-bio */
 }
 .masthead-container .greedy-nav {
   position: static !important;
+}
+.masthead-container {
+  position: static !important;
+  top: auto !important;
+  transform: none !important;
 }
 /* Hide the default site title in masthead */
 .masthead__menu-item--lg.persist {
