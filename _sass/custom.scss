@@ -151,17 +151,21 @@ div.navigation-row span {
 .masthead a,
 .masthead__menu-item {
   position: sticky;      /* enable positional adjustment */
-  text-align: center !important; /* align text left */
+  text-align: left !important; /* align text left */
 }
 .masthead {
   position: fixed !important;
   width: 200% !important;
   margin-top: 6rem !important;
   margin-left: 0rem !important;
-  height: 3.2rem !important;
+  height: 3.5rem !important;
   z-index: 9998 !important;
 }
 .masthead__inner-wrap {
+  justify-content: flex-start !important;
+}
+.greedy-nav .visible-links {
+  display: flex;
   justify-content: flex-start !important;
 }
 /* Hide the default site title in masthead */
@@ -182,7 +186,7 @@ div.navigation-row span {
   position: fixed !important;  // or fixed if you want it always visible
   top: 0.1rem !important;            // anchor at top
   width: 200% !important;
-  height: 6rem !important;
+  height: 6.2rem !important;
   background: #fff !important;
   padding: 1rem 1rem;
   border-bottom: 1px solid #e5e5e5;
