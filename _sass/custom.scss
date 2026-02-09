@@ -157,7 +157,7 @@ div.navigation-row span {
   position: fixed !important;
   justify-content: flex-start !important;
   margin-left: 0 !important;
-  margin-top: 6rem !important;
+  margin-top: 5.8rem !important;
   height: 3.4rem !important;
   z-index: 9998 !important;
 }
@@ -178,9 +178,9 @@ div.navigation-row span {
 
 .top-bio {
   position: fixed !important;  // or fixed if you want it always visible
-  top: 0.1rem !important;            // anchor at top
+  top: 0 !important;            // anchor at top
   width: 200% !important;
-  height: 6.2rem !important;
+  height: 6.1rem !important;
   background: #fff !important;
   padding: 1rem 1rem;
   border-bottom: 1px solid #e5e5e5;
