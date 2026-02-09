@@ -213,10 +213,7 @@ div.navigation-row span {
   margin-top: -80px; /* 👈 用负 margin 把 tab 推上去 */
 }
 
-/* 2️⃣ 用 top-bio 高度盖住 masthead tab */
-.top-bio {
-  height: 80px;        /* 你条 top-bio 实际高度 */
-}
+
 
 /* 3️⃣ 防止页面内容被遮 */
 #main {
