@@ -161,7 +161,7 @@ div.navigation-row span {
 .masthead-container .masthead {
   position: fixed !important;
   top: 0 !important;
-  margin-top: 4rem !important;
+  margin-top: 8rem !important;
   padding-top: 0.15rem !important;
   padding-bottom: 0.15rem !important;
   z-index: 1000 !important;           /* masthead stays below top-bio */
@@ -169,11 +169,7 @@ div.navigation-row span {
 .masthead-container .greedy-nav {
   position: fixed !important;
 }
-.masthead-container {
-  position: fixed !important;
-  top: auto !important;
-  transform: none !important;
-}
+
 /* Hide the default site title in masthead */
 .masthead__menu-item--lg.persist {
   display: none !important;
