@@ -64,10 +64,10 @@ html, body {
 }
 
 /* Right-align the navigation */
-/*nav {
+nav {
   display: flex !important;
-  justify-content: flex-end !important;
-}*/
+  justify-content: flex-start !important;
+}
 
 header,
 .site-header {
