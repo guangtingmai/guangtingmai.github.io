@@ -156,6 +156,7 @@ div.navigation-row span {
 .masthead a,
 .masthead__menu-item {
   position: relative;      /* enable positional adjustment */
+  align-items: center !important;
   left: -5% !important; /* move slightly left (adjust value as needed) */
 }
 .masthead {
