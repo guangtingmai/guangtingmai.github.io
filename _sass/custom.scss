@@ -224,3 +224,8 @@ div.navigation-row span {
     box-sizing: border-box !important;
   }
 }
+
+#main {
+  position: relative;
+  z-index: 1;
+}
