@@ -171,6 +171,7 @@ div.navigation-row span {
 /* Hide the default site title in masthead */
 .masthead__menu-item--lg.persist {
   display: none !important;
+  margin-right: 0 !important;
 }
 
 @media (max-width: 768px) {
