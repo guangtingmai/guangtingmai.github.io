@@ -161,8 +161,7 @@ div.navigation-row span {
 }
 .masthead {
   position: fixed !important;
-  z-index: 1000 !important;
-  margin-top: 30rem !important;
+  margin-top: 10rem !important;
 }
 
 /* Hide the default site title in masthead */
@@ -183,7 +182,6 @@ div.navigation-row span {
 .top-bio {
   position: fixed !important;  // or fixed if you want it always visible
   top: 0 !important;            // anchor at top
-  z-index: 2000 !important;     // higher than masthead
   background: #fff !important;
   padding: 1rem 1rem;
   border-bottom: 1px solid #e5e5e5;
