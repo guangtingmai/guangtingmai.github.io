@@ -160,11 +160,8 @@ div.navigation-row span {
 }
 .masthead-container .masthead {
   position: sticky !important;  /* 固定位置 */
-  top: 100px;                      /* 如果有 top-bio，可改成 top: 80px */
-  left: 0;
-  right: 0;
-  width: 100%;
   z-index: 1000;
+  margin-top: 80px;
 }
 
 /* Hide the default site title in masthead */
