@@ -159,7 +159,7 @@ div.navigation-row span {
   left: -3rem !important; /* move slightly left (adjust value as needed) */
 }
 .masthead-container .masthead {
-  position: sticky !important;  /* 固定位置 */
+  position: relative !important;
   z-index: 1000;
   margin-top: 80px;
 }
