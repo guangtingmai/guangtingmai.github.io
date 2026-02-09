@@ -164,6 +164,10 @@ div.navigation-row span {
   margin-top: 10rem !important;
   height: 2rem !important;
 }
+.masthead-container .masthead {
+  position: relative;
+  z-index: 9998;
+}
 
 /* Hide the default site title in masthead */
 .masthead__menu-item--lg.persist {
