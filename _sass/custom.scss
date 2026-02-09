@@ -161,7 +161,9 @@ div.navigation-row span {
   height: 3.2rem !important;
   z-index: 9998 !important;
 }
-
+.masthead__inner-wrap {
+  justify-content: flex-start !important;
+}
 /* Hide the default site title in masthead */
 .masthead__menu-item--lg.persist {
   display: none !important;
