@@ -160,7 +160,7 @@ div.navigation-row span {
   left: -3rem !important; /* move slightly left (adjust value as needed) */
 }
 .masthead {
-  position: sticky !important;
+  position: static !important;
   z-index: 1000 !important;
   margin-top: 100px !important;
 }
