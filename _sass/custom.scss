@@ -155,14 +155,14 @@ div.navigation-row span {
 
 .masthead a,
 .masthead__menu-item {
-  position: relative;      /* enable positional adjustment */
-  left: -3rem !important; /* move slightly left (adjust value as needed) */
+  position: fixed;      /* enable positional adjustment */
+  left: -2% !important; /* move slightly left (adjust value as needed) */
 }
 .masthead {
   position: fixed !important;
-  width: 50% !important;
+  width: 100% !important;
   margin-top: 6rem !important;
-  padding: 0.2rem 0.2rem;
+  padding: 0rem 0rem;
   height: 1rem !important;
   z-index: 9998 !important;
 }
@@ -188,7 +188,7 @@ div.navigation-row span {
 
 .top-bio {
   position: fixed !important;  // or fixed if you want it always visible
-  top: 0 !important;            // anchor at top
+  top: 0.2rem !important;            // anchor at top
   width: 200% !important;
   height: 6rem !important;
   background: #fff !important;
