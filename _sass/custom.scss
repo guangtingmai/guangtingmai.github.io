@@ -154,7 +154,7 @@ div.navigation-row span {
   text-align: left !important; /* align text left */
 }
 .masthead {
-  position: fixed !important;
+  position: sticky !important;
   justify-content: flex-start !important;
   margin-left: 0 !important;
   margin-top: 5.8rem !important;
