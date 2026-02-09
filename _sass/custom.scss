@@ -159,15 +159,22 @@ div.navigation-row span {
   left: -3rem !important; /* move slightly left (adjust value as needed) */
 }
 .masthead-container .masthead {
-  position: sticky !important;
-  top: 0 !important;
-  margin-top: 8rem !important;
-  padding-top: 0.15rem !important;
-  padding-bottom: 0.15rem !important;
-  z-index: 1000 !important;           /* masthead stays below top-bio */
+  position: fixed !important;  /* 固定位置 */
+  top: 0;                      /* 如果有 top-bio，可改成 top: 80px */
+  left: 0;
+  right: 0;
+  height: 60px;                /* 🔥 必须有明确高度 */
+  width: 100%;
+  background: #fff;            /* 避免透明 */
+  z-index: 1000;
+  border-bottom: 1px solid #e5e5e5;
 }
-.masthead-container .greedy-nav {
-  position: sticky !important;
+
+/* greedy-nav 正确撑满 */
+.masthead-container .masthead .greedy-nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 /* Hide the default site title in masthead */
