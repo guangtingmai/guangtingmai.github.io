@@ -159,7 +159,7 @@ div.navigation-row span {
   left: -3rem !important; /* move slightly left (adjust value as needed) */
 }
 .masthead-container .masthead {
-  position: relative !important;
+  position: static !important;
   top: 0 !important;
   margin-top: 80px !important;
   z-index: 1000 !important;           /* masthead stays below top-bio */
