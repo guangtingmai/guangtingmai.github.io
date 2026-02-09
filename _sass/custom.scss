@@ -167,13 +167,6 @@ div.navigation-row span {
   z-index: 1000;
 }
 
-/* greedy-nav 正确撑满 */
-.masthead-container .masthead .greedy-nav {
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
-
 /* Hide the default site title in masthead */
 .masthead__menu-item--lg.persist {
   display: none !important;
