@@ -144,6 +144,7 @@ div.navigation-row span {
   margin: 1.8em 0 !important;         /* top & bottom spacing */
   flex-wrap: wrap;                     /* wrap items if screen is small */
   align-items: center;                 /* vertically center items */
+  width: 80ch !important;
 }
 
 @media (max-width: 768px) {
