@@ -156,7 +156,7 @@ div.navigation-row span {
 
 .masthead a,
 .masthead__menu-item {
-  position: relative;      /* enable positional adjustment */
+  position: fixed;      /* enable positional adjustment */
   text-align: center !important; /* align text left */
 }
 .masthead {
