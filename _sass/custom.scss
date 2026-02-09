@@ -155,6 +155,8 @@ div.navigation-row span {
 }
 .masthead {
   position: fixed !important;
+  justify-content: flex-start !important;
+  margin-left: 0 !important;
   margin-top: 6rem !important;
   height: 3.5rem !important;
   z-index: 9998 !important;
