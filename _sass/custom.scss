@@ -216,9 +216,9 @@ div.navigation-row span {
 
 @media (max-width: 900px) {
   .sidebar > * {
-    width: 40ch !important;
-    min-width: 40ch !important;
-    max-width: 40ch !important;
+    width: 32ch !important;
+    min-width: 32ch !important;
+    max-width: 32ch !important;
     box-sizing: border-box !important;
   }
 }
@@ -229,6 +229,15 @@ div.navigation-row span {
     position: static !important; /* remove relative positioning */
     left: 0 !important;          /* reset nudge */
     text-align: left !important; /* align text left */
+  }
+  #main {
+  position: stactic !important;
+  z-index: 1 !important;
+  margin-top: 3rem !important;
+  margin-left: 0rem !important;
+  }
+  .top-bio {
+  width: 120% !important;
   }
 }
 
