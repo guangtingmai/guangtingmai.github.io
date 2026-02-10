@@ -171,11 +171,12 @@ div.navigation-row span {
   border-radius: 6px;
 }
 .top-bio__name {
-  margin-left: 2rem;
+  margin-left: 4rem !important;
+  margin-top: 0 !important;
 }
 .top-bio__role {
   color: #080808;
-  margin-left: 2rem;
+  margin-left: 4rem !important;
 }
 .top-container {
   display: flex;
@@ -238,5 +239,12 @@ div.navigation-row span {
   .masthead__menu-item {
     z-index: 9997 !important;
   }
+  .top-bio__name {
+  margin-left: 0 !important;
+  margin-top: 0 !important;
+}
+.top-bio__role {
+  margin-left: 0 !important;
+}
 }
 
