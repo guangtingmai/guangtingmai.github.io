@@ -99,22 +99,6 @@ a:hover {
   box-sizing: border-box;
 }
 
-/* Optional: responsive adjustment for small screens */
-@media (max-width: 768px) {
-  .page__content > * {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    width: 38ch !important;
-    max-width: 100% !important;
-  }
-  .archive > * {
-    margin-left: 1rem !important;
-    margin-right: 0 !important;
-    width: 94% !important;
-    max-width: 100% !important;
-  }
-}
-
 /* Target this specific navigation div without affecting others */
 div.navigation-row {
   display: flex !important;                /* keep flex layout */
@@ -166,14 +150,7 @@ div.navigation-row span {
   margin-right: 0 !important;
 }
 
-@media (max-width: 768px) {
-  .masthead a,
-  .masthead__menu-item {
-    position: static !important; /* remove relative positioning */
-    left: 0 !important;          /* reset nudge */
-    text-align: left !important; /* align text left */
-  }
-}
+
 
 .top-bio {
   position: fixed !important;  // or fixed if you want it always visible
@@ -214,6 +191,29 @@ div.navigation-row span {
   margin-left: 50px !important;
 }
 
+#main {
+  position: stactic !important;
+  z-index: 1 !important;
+  margin-top: 3rem !important;
+  margin-left: -4rem !important;
+}
+
+/* Optional: responsive adjustment for small screens */
+@media (max-width: 768px) {
+  .page__content > * {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 38ch !important;
+    max-width: 100% !important;
+  }
+  .archive > * {
+    margin-left: 1rem !important;
+    margin-right: 0 !important;
+    width: 94% !important;
+    max-width: 100% !important;
+  }
+}
+
 @media (max-width: 900px) {
   .sidebar > * {
     width: 40ch !important;
@@ -223,9 +223,12 @@ div.navigation-row span {
   }
 }
 
-#main {
-  position: stactic !important;
-  z-index: 1 !important;
-  margin-top: 3rem !important;
-  margin-left: -4rem !important;
+@media (max-width: 768px) {
+  .masthead a,
+  .masthead__menu-item {
+    position: static !important; /* remove relative positioning */
+    left: 0 !important;          /* reset nudge */
+    text-align: left !important; /* align text left */
+  }
 }
+
