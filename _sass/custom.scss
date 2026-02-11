@@ -125,13 +125,6 @@ div.navigation-row span {
   width: 80ch !important;
 }
 
-@media (max-width: 768px) {
-  .flex-row {
-    justify-content: flex-start; /* left-align on small screens */
-    gap: 1rem !important;        /* reduce gap */
-  }
-}
-
 .masthead a,
 .masthead__menu-item {
   position: sticky;      /* enable positional adjustment */
@@ -204,21 +197,6 @@ div.navigation-row span {
 }
 
 /* Optional: responsive adjustment for small screens */
-@media (max-width: 768px) {
-  .page__content > * {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    width: 35ch !important;
-    max-width: 100% !important;
-  }
-  .archive > * {
-    margin-left: 1rem !important;
-    margin-right: 0 !important;
-    width: 84% !important;
-    max-width: 100% !important;
-  }
-}
-
 @media (max-width: 900px) {
   .sidebar > * {
     width: 32ch !important;
@@ -229,6 +207,23 @@ div.navigation-row span {
 }
 
 @media (max-width: 768px) {
+  .page__content > * {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 35ch !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+  }
+  .archive > * {
+    margin-left: 1rem !important;
+    margin-right: 0 !important;
+    width: 84% !important;
+    max-width: 100% !important;
+  }
+  .flex-row {
+    justify-content: flex-start; /* left-align on small screens */
+    gap: 1rem !important;        /* reduce gap */
+  }
   .masthead a,
   .masthead__menu-item {
     position: static !important; /* remove relative positioning */
