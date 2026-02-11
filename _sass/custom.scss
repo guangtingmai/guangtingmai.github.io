@@ -89,6 +89,7 @@ a:hover {
 .page__content {
   width: 64ch !important;
   max-width: 120% !important;  /* optional: prevent overflow */
+  margin-left: 5rem !important;
 }
 
 .archive > * {
@@ -246,7 +247,7 @@ div.navigation-row span {
 .top-bio__role {
   margin-left: 0 !important;
 }
-p.float-right {
+p.float-left {
     display: none !important;
   }
 }
