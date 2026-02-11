@@ -138,7 +138,7 @@ div.navigation-row span {
   text-align: left !important; /* align text left */
 }
 .masthead__menu-item.active > a {
-  background-color: #2c7be5;   /* your chosen color */
+  background-color: #2c7be5 !important;   /* your chosen color */
 }
 .masthead {
   position: static !important;
