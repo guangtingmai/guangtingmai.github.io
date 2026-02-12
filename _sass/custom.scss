@@ -131,10 +131,6 @@ div.navigation-row span {
   text-align: left !important; /* align text left */
   padding: 0.3rem 0.3rem !important;
   margin: 0 0.5rem !important;   /* controls distance between items */  
-.masthead__menu-item > a {
-  display: block !important;
-  padding: 0.6rem 1.2rem !important;   /* increase this to make background larger */
-}
 .masthead__menu-item.active > a {
   background-color: #020499 !important; 
   border-radius: 6px !important;
