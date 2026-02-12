@@ -129,12 +129,12 @@ div.navigation-row span {
 .masthead__menu-item {
   position: sticky;      /* enable positional adjustment */
   text-align: left !important; /* align text left */
-  padding: 0.5rem 0.5rem !important;
-  margin: 0 0.5rem !important;   /* controls distance between items */ 
+  padding: 0.1rem 0.3rem !important;
+  margin: 0 0.3rem !important;   /* controls distance between items */ 
 }
 .masthead__menu-item.active > a {
   background-color: #06c5d6 !important; 
-  border-radius: 6px !important;
+  border-radius: 2px !important;
 }
 .masthead {
   position: static !important;
