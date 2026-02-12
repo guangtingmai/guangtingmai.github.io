@@ -132,6 +132,8 @@ div.navigation-row span {
 }
 .masthead__menu-item.active > a {
   background-color: #2c3e50 !important;
+  padding: 0.6rem 1.2rem !important;
+  border-radius: 6px !important;
 }
 .masthead {
   position: static !important;
