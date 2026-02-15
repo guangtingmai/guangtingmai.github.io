@@ -23,7 +23,7 @@ repository               : "guangtingmai/guangtingmai.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : '<span style="font-size:19pt;line-height:1.1"><strong>GuangTing Mai</strong></span> <span style="font-size:9pt;color:#9e9d9d;line-height:1.1"><i>Name pronunciation: /g-wa<strong>ng</strong>-ting-<strong>my</strong>/</i></span>'
+  name             : '<span style="font-size:18pt;line-height:1.1"><strong>GuangTing Mai</strong></span> <span style="font-size:9pt;color:#9e9d9d;line-height:1.1"><i>Name pronunciation: /g-wa<strong>ng</strong>-ting-<strong>my</strong>/</i></span>'
   pronouns         : # example: "she/her"  
   bio              : '<span style="font-size:12pt;"><strong>Wellcome Research Fellow</strong>, MRC Cognition & Brain Sciences Unit, <a href="https://www.cam.ac.uk/">University of Cambridge</a><br><a href="https://www.mrc-cbu.cam.ac.uk/people/guangting.mai/">MRC-CBU</a> | <a href="https://neuroscience.cam.ac.uk/member/gm832/">CamNeuro</a> | <a href="https://orcid.org/0000-0002-5618-7420">ORCID</a> | <a href="https://scholar.google.com/citations?user=bCQ03mIAAAAJ&hl=en">Google Scholar</a> | <a href="https://guangtingmai.github.io/contact/">Contact</a></span>'
   location         : # "UK"
