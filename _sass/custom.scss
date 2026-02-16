@@ -124,11 +124,11 @@ div.navigation-row span {
 .flex-row {
   display: flex !important;
   justify-content: center !important; /* center content horizontally */
-  gap: 2ch !important;               /* fixed gap, more consistent than % */
-  margin-left: 0.5rem !important;
+  gap: 2ch;               /* fixed gap, more consistent than % */
+  margin-left: 0.5rem;
   flex-wrap: wrap;                     /* wrap items if screen is small */
   align-items: center;                 /* vertically center items */
-  width: 100ch !important;
+  width: 100ch;
 }
 
 .masthead a,
