@@ -125,10 +125,10 @@ div.navigation-row span {
   display: flex !important;
   justify-content: center !important; /* center content horizontally */
   gap: 1.3rem !important;               /* fixed gap, more consistent than % */
-  margin: 1rem 0 !important;         /* top & bottom spacing */
+  margin: 1.5rem 0 !important;         /* top & bottom spacing */
   flex-wrap: wrap;                     /* wrap items if screen is small */
   align-items: center;                 /* vertically center items */
-  width: 120ch !important;
+  width: 90ch !important;
 }
 
 .masthead a,
