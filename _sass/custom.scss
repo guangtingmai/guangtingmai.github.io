@@ -249,12 +249,14 @@ div.navigation-row span {
     z-index: 9997 !important;
   }
   .top-bio__name {
-  margin-left: 0 !important;
-}
-.top-bio__role {
-  margin-left: 0 !important;
-}
-.float-left {
+    font-size: 12pt !important;
+    margin-left: 0 !important;
+  }
+ .top-bio__role {
+    font-size: 10pt !important;
+    margin-left: 0 !important;
+  }
+  .float-left {
     display: none !important;
   }
 }
