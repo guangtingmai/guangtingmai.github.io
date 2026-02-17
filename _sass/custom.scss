@@ -127,6 +127,7 @@ div.navigation-row span {
   gap: 2ch;               /* fixed gap, more consistent than % */
   flex-wrap: wrap;                     /* wrap items if screen is small */
   align-items: center;                 /* vertically center items */
+  vertical-align: middle;    /* align container with text */
 }
 
 .masthead a,
