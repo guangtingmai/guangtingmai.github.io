@@ -238,6 +238,8 @@ div.navigation-row span {
     position: static !important; /* remove relative positioning */
     left: 0 !important;          /* reset nudge */
     text-align: left !important; /* align text left */
+    font-size:9pt !important;
+    z-index: 9997 !important;
   }
   #main {
     margin-left: 0rem !important;
@@ -246,9 +248,6 @@ div.navigation-row span {
     width: 105% !important;
     height: 7rem !important;
     font-size:10pt !important;
-  }
-  .masthead__menu-item {
-    z-index: 9997 !important;
   }
   .top-bio__name {
     margin-left: 0 !important;
