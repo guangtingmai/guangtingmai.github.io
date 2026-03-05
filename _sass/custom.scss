@@ -236,7 +236,7 @@ div.navigation-row span {
   .masthead {
   justify-content: flex-start !important;
   margin-left: 0 !important;
-  margin-top: 3.5rem !important;
+  margin-top: 4rem !important;
   height: 3.4rem !important;
   z-index: 9998 !important;
   }
@@ -244,15 +244,16 @@ div.navigation-row span {
     position: static !important; /* remove relative positioning */
     left: 0 !important;          /* reset nudge */
     text-align: left !important; /* align text left */
-    font-size:9pt !important;
+    font-size:10pt !important;
     z-index: 9997 !important;
+    margin: 0 0.1rem !important;   /* controls distance between items */ 
   }
   #main {
     margin-left: 0rem !important;
   }
   .top-bio {
-    width: 110% !important;
-    height: 7.6rem !important;
+    width: 105% !important;
+    height: 8.2rem !important;
     font-size:10pt !important;
   }
   .top-bio__name {
