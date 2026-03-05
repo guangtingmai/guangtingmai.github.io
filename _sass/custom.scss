@@ -233,7 +233,13 @@ div.navigation-row span {
     justify-content: flex-start; /* left-align on small screens */
     gap: 1rem !important;        /* reduce gap */
   }
-  .masthead a,
+  .masthead {
+  justify-content: flex-start !important;
+  margin-left: 0 !important;
+  margin-top: 3.5rem !important;
+  height: 3.4rem !important;
+  z-index: 9998 !important;
+  }
   .masthead__menu-item {
     position: static !important; /* remove relative positioning */
     left: 0 !important;          /* reset nudge */
@@ -245,8 +251,8 @@ div.navigation-row span {
     margin-left: 0rem !important;
   }
   .top-bio {
-    width: 105% !important;
-    height: 7rem !important;
+    width: 110% !important;
+    height: 7.6rem !important;
     font-size:10pt !important;
   }
   .top-bio__name {
