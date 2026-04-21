@@ -31,7 +31,7 @@ nav a *,
   color: #fff !important;
 }
 .top-bio a {
-  color: #91ccfa !important;
+  color: #2390e8 !important;
 }
 .top-bio a:hover {
   color: #9725fa !important;
@@ -165,7 +165,7 @@ div.navigation-row span {
   height: 5.7rem !important;
   background: #ebf4ff !important;
   padding: 1rem 1rem;
-  border-bottom: 0.1rem solid #012352 !important;
+  border-bottom: 0.1rem solid #797a7a !important;
   display: flex;
   align-items: center;
   gap: 1.5rem;
@@ -177,12 +177,12 @@ div.navigation-row span {
   border-radius: 6px;
 }
 .top-bio__name {
-  color: #3b3a3a;
+  color: #3b3a3a; !important;
   margin-left: 4rem !important;
   margin-top: 1.5rem !important;
 }
 .top-bio__role {
-  color: #dacef5;
+  color: #3b3a3a;
   margin-left: 4rem !important;
   margin-top: -0.9rem !important;
 }
