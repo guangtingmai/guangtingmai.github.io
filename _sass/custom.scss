@@ -141,7 +141,7 @@ div.navigation-row span {
   background-color: #005bab !important; 
   border-radius: 2px !important;
 }
-.masthead {
+/*.masthead {
   position: static !important;
   background: #011a40 !important;
   justify-content: flex-start !important;
@@ -149,6 +149,17 @@ div.navigation-row span {
   margin-top: 2rem !important;
   height: 3.2rem !important;
   z-index: 9998 !important;
+}*/
+
+.masthead {
+  position: fixed !important;
+  left: 0 !important;
+  top: 0 !important;
+  width: 220px !important;
+  height: 100vh !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
 }
 /* Hide the default site title in masthead */
 .masthead__menu-item--lg.persist {
