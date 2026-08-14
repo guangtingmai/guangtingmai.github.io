@@ -41,7 +41,7 @@ nav a *,
 header a:hover,
 nav a:hover,
 .masthead a:hover {
-  color: #ccc !important;
+  color: #7e92a3 !important;
 }
 
 /* Make body and page full height */
@@ -132,14 +132,14 @@ div.navigation-row span {
 
 .masthead a, 
 .masthead__menu-item { 
-  color: #91979c !important;
+  color: #555c61 !important;
   position: sticky; /* enable positional adjustment */ 
   text-align: left !important; /* align text left */ 
   padding: 0.3rem 0.4rem !important; 
   margin: 0 0.4rem !important; /* controls distance between items */ 
 } 
 .masthead__menu-item.active > a { 
-  background-color: #005bab !important; 
+  background-color: #c8e3fa !important; 
   border-radius: 2px !important; } 
 
 .masthead { 
