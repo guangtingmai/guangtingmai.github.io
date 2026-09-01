@@ -36,8 +36,8 @@ main:
   - title: "CrossModal-CI"
     url: /crossmodal-ci/
 
-  - title: "Photos"
-    url: /lifephotos/
+ # - title: "Photos"
+ #   url: /lifephotos/
 
  # - title: "Contact"
  #  url: /contact/
