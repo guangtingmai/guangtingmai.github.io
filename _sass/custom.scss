@@ -142,7 +142,8 @@ div.navigation-row span {
   border-radius: 2px !important; } 
 
 .masthead { 
-  position: fixed !important; 
+  position: absolute !important; 
+  top: 5.7rem !important; 
   background-color: #e1eefa !important; 
   justify-content: flex-start !important; 
   margin-left: 0 !important; 
