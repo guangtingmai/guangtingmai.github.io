@@ -132,7 +132,7 @@ div.navigation-row span {
 .masthead a, 
 .masthead__menu-item { 
   color: #444a4f !important;
-  position: absolute; /* enable positional adjustment */ 
+  position: static; /* enable positional adjustment */ 
   text-align: left !important; /* align text left */ 
   padding: 0.3rem 0.4rem !important; 
   margin: 0 0.4rem !important; /* controls distance between items */ 
@@ -142,7 +142,7 @@ div.navigation-row span {
   border-radius: 2px !important; } 
 
 .masthead { 
-  position: static !important; 
+  position: absolute !important; 
   background-color: #e1eefa !important; 
   justify-content: flex-start !important; 
   margin-left: 0 !important; 
