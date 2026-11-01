@@ -157,7 +157,7 @@ div.navigation-row span {
 }
 
 .top-bio {
-  position: fixed !important;  // or fixed if you want it always visible
+  position: absolute !important;  // or fixed if you want it always visible
   top: 0 !important;            // anchor at top
   width: 200% !important;
   height: 5.7rem !important;
